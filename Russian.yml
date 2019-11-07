@@ -229,8 +229,8 @@ Language:
     OwnerNoPermission: '&cВладелец не имеет разрешения на это.'
     ParentNoPermission: '&cУ вас нет прав вносить изменения в родительскую зону.'
     ChatDisabled: '&eЧат резиденции отключен...'
-    DeleteConfirm: '&eAre you sure you want to delete residence &6%1&e, use &6/res
-      confirm &eto confirm.'
+    DeleteConfirm: '&eВы уверены, что хотите удалить резиденцию &6%1&e? пишите &6/res
+      confirm &eдля пподверждения.'
     ChangedMain: '&eИзменена основная резиденция на &6%1'
     LwcRemoved: '&eУдалена &6%1 &eLwc защита за &6%2мс'
     CanBeRented: '&6%1&e можно взять в аренду за &6%2 &eна &6%3 &eдней. &6/res market rent'
