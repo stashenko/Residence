@@ -711,188 +711,186 @@ CommandHelp:
               Description: Продать резиденцию
               Info:
               - '&eПишите: &6/res market sell [резиденция] [количество]'
-              - Puts a residence for sale for [количество] of money.
-              - Another player can buy the residence with /res market buy
+              - Выставляет резиденцию на продажу за [количество] денег.
+              - Другой игрок может купить резиденцию командой /res market buy
             sign:
-              Description: Set market sign
+              Description: Установить табличку рынка
               Info:
-              - '&eПишите: &6/res market sign [residence]'
-              - Sets market sign you are looking at.
+              - '&eПишите: &6/res market sign [резиденция]'
+              - Устанавливает табличку рынка, на которую вы смотрите.
             buy:
-              Description: Buy a residence
+              Description: Купить резиденцию
               Info:
-              - '&eПишите: &6/res market buy [residence]'
-              - Buys a Residence if its for sale.
+              - '&eПишите: &6/res market buy [резиденция]'
+              - Покупает резиденцию, если она для продажи.
             unsell:
-              Description: Stops selling a residence
+              Description: Останавливает продажу резиденции
               Info:
-              - '&eПишите: &6/res market unsell [residence]'
+              - '&eПишите: &6/res market unsell [резиденция]'
             rent:
-              Description: ent a residence
+              Description: Арендовать резиденцию
               Info:
-              - '&eПишите: &6/res market rent [residence] <AutoPay>'
-              - Rents a residence.  Autorenew can be either true or false.  If true,
-                the residence will be automatically re-rented upon expire if the residence
-                owner has allowed it.
+              - '&eПишите: &6/res market rent [резиденция] <AutoPay>'
+              - Арендует резиденцию. Автообновление может быть как истинным, так и ложным.
+                Если это правда, место жительства будет автоматически повторно сдано в аренду
+                по истечении срока, если владелец проживания разрешил это.
             rentable:
-              Description: Make a residence rentable.
+              Description: Сделать резиденцию арендуемой.
               Info:
-              - '&eПишите: &6/res market rentable [residence] [cost] [days] <AllowRenewing>
+              - '&eПишите: &6/res market rentable [резиденция] [стоимость] [дни] <AllowRenewing>
                 <StayInMarket> <AllowAutoPay>'
-              - Makes a residence rentable for [cost] money for every [days] number
-                of days.
-              - If <AllowRenewing> is true, the residence will be able to be rented
-                again before rent expires.
-              - If <StayInMarket> is true, the residence will stay in market after
-                last renter will be removed.
-              - If <AllowAutoPay> is true, money for rent will be automaticaly taken
-                from players balance if he chosen that option when renting
+              - Делает жилье арендуемым за [стоимость] денег за каждые [дни] количество дней.
+              - Если <AllowRenewing> имеет значение true, резиденция сможет быть сдана в аренду
+                еще раз до истечения срока аренды.
+              - Если <StayInMarket> имеет значение true, резиденция останется на рынке после
+                того, как последний арендатор будет удален.
+              - Если <Allow AutoPay> имеет значение true, деньги за аренду будут автоматически
+                сниматься с баланса игроков, если он выбрал эту опцию при аренде
             autopay:
-              Description: Sets residence AutoPay to given value
+              Description: Устанавливает автоплатеж резиденции на заданное значение
               Info:
-              - '&eПишите: &6/res market autopay <residence> [true/false]'
+              - '&eПишите: &6/res market autopay <резиденция> [true/false]'
             payrent:
-              Description: Pays rent for defined residence
+              Description: Оплачивает арендную плату за определенную резиденцию
               Info:
-              - '&eПишите: &6/res market payrent <residence>'
+              - '&eПишите: &6/res market payrent <резиденция>'
             confirm:
-              Description: Confirms residence unrent/release action
+              Description: Подтверждает действие снития аренды или освобождения резиденции
               Info:
               - '&eПишите: &6/res market confirm'
             unrent:
-              Description: Remove a residence from rent or rentable.
+              Description: Снять резиденцию с аренды или сдачи в аренду.
               Info:
-              - '&eПишите: &6/res market unrent [residence]'
-              - If you are the renter, this command releases the rent on the house
-                for you.
-              - If you are the owner, this command makes the residence not for rent
-                anymore.
+              - '&eПишите: &6/res market unrent [резиденция]'
+              - Если вы арендатор, эта команда снимает арендную плату за дом для вас.
+              - Если вы владелец, эта команда больше не сдает резиденцию.
         rc:
-          Description: Joins current or defined residence chat channel
+          Description: Присоединяется к текущему или заданному чату резиденции
           Info:
-          - '&eПишите: &6/res rc (residence)'
-          - Join residence chat channel.
+          - '&eПишите: &6/res rc (резиденция)'
+          - Присоединяет к общему чату резиденции
           SubCommands:
             leave:
-              Description: Leaves current residence chat channel
+              Description: Отсоединиться от общего чата резиденции
               Info:
               - '&eПишите: &6/res rc leave'
-              - If you are in residence chat channel then you will leave it
+              - Если вы находитесь в канале резиденции, то покинете его.
             setcolor:
-              Description: Sets residence chat channel text color
+              Description: Устанавливить цвет текста канала чата резиденции
               Info:
-              - '&eПишите: &6/res rc setcolor [colorCode]'
-              - Sets residence chat channel text color
+              - '&eПишите: &6/res rc setcolor [код цвета]'
+              - Устанавливает цвет текста канала чата резиденции
             setprefix:
-              Description: Sets residence chat channel prefix
+              Description: Устанавливить префикс канала чата резиденции
               Info:
-              - '&eПишите: &6/res rc setprefix [newName]'
-              - Sets residence chat channel prefix
+              - '&eПишите: &6/res rc setprefix [префикс]'
+              - Устанавливает префикс канала чата резиденции
             kick:
-              Description: Kicks player from channel
+              Description: Кикнуть игрока с канала
               Info:
-              - '&eПишите: &6/res rc kick [player]'
-              - Kicks player from channel
+              - '&eПишите: &6/res rc kick [игрок]'
+              - Кикает игрока с канала
         expand:
-          Description: Expands residence in direction you looking
+          Description: Расширить резиденцию в направлении, в которое вы смотрите
           Info:
-          - '&eПишите: &6/res expand (residence) [amount]'
-          - Expands residence in direction you looking.
-          - Residence name is optional
+          - '&eПишите: &6/res expand (резиденция) [количество]'
+          - Расширяет резиденцию в направлении, в которое вы смотрите
+          - Название резиденции необязательно
         compass:
-          Description: Set compass pointer to residence location
+          Description: Установить указатель компаса на резиденцию
           Info:
-          - '&eПишите: &6/res compass <residence>'
+          - '&eПишите: &6/res compass <резиденция>'
         lists:
-          Description: Predefined permission lists
+          Description: Списки разрешений
           Info:
-          - Predefined permissions that can be applied to a residence.
+          - Предопределенные разрешения, которые могут быть применены к резиденции.
           SubCommands:
             add:
-              Description: Add a list
+              Description: Добавить список
               Info:
-              - '&eПишите: &6/res lists add <listname>'
+              - '&eПишите: &6/res lists add <название>'
             remove:
-              Description: Remove a list
+              Description: Удалить список
               Info:
-              - '&eПишите: &6/res lists remove <listname>'
+              - '&eПишите: &6/res lists remove <название>'
             apply:
-              Description: Apply a list to a residence
+              Description: Применить список к резиденции
               Info:
-              - '&eПишите: &6/res lists apply <listname> <residence>'
+              - '&eПишите: &6/res lists apply <название> <резиденция>'
             set:
-              Description: Set a flag
+              Description: Установить флаг
               Info:
-              - '&eПишите: &6/res lists set <listname> <flag> <value>'
+              - '&eПишите: &6/res lists set <название> <флаг> <значение>'
             pset:
-              Description: Set a player flag
+              Description: Установить флаг игроку
               Info:
-              - '&eПишите: &6/res lists pset <listname> <player> <flag> <value>'
+              - '&eПишите: &6/res lists pset <название> <игрок> <флаг> <значение>'
             gset:
-              Description: Set a group flag
+              Description: Установить флаг группе
               Info:
-              - '&eПишите: &6/res lists gset <listname> <group> <flag> <value>'
+              - '&eПишите: &6/res lists gset <название> <группа> <флаг> <значение>'
             view:
-              Description: View a list.
+              Description: Просмотр списка.
               Info:
-              - '&eПишите: &6/res lists view <listname>'
+              - '&eПишите: &6/res lists view <название>'
         reset:
-          Description: Reset residence to default flags.
+          Description: Сбросить флаги резиденции по умолчанию.
           Info:
-          - '&eПишите: &6/res reset <residence/all>'
-          - Resets the flags on a residence to their default.  You must be the owner
-            or an admin to do this.
+          - '&eПишите: &6/res reset <резиденция/all>'
+          - Сбрасывает флаги резиденции на их значения по умолчанию. Вы должны быть
+            владельцем или администратором, чтобы сделать это.
         listhidden:
-          Description: List Hidden Residences
+          Description: Список скрытых резиденций
           Info:
-          - '&eПишите: &6/res listhidden <player> <page>'
-          - Lists hidden residences for a player.
+          - '&eПишите: &6/res listhidden <игрок> <страница>'
+          - Список скрытых резиденций игрока
         setmain:
-          Description: Sets defined residence as main to show up in chat as prefix
+          Description: Устанавливить резиденцию в качестве основной, чтобы
+            отображаться в чате в качестве префикса
           Info:
-          - '&eПишите: &6/res setmain (residence)'
-          - Set defined residence as main.
+          - '&eПишите: &6/res setmain (резиденция)'
+          - Устанавливает определенное резиденцию в качестве основной.
         server:
-          Description: Make land server owned.
+          Description: Отметить земелю сервера в собственности.
           Info:
-          - '&eПишите: &6/resadmin server [residence]'
-          - Make a residence server owned.
+          - '&eПишите: &6/resadmin server [резиденция]'
+          - Стать владельцем резиденции сервера.
         rt:
-          Description: Teleports to random location in world
+          Description: Телепортироваться в случайное место в мире
           Info:
-          - '&eПишите: &6/res rt (worldname) (playerName)'
-          - Teleports you to random location in defined world.
+          - '&eПишите: &6/res rt (мир) (игрок)'
+          - Телепортируйтесь в случайное место в мире
         mirror:
-          Description: Mirrors Flags
+          Description: Копирование Флагов
           Info:
-          - '&eПишите: &6/res mirror [Source Residence] [Target Residence]'
-          - Mirrors flags from one residence to another.  You must be owner of both
-            or a admin to do this.
+          - '&eПишите: &6/res mirror [1 резиденция] [2 резиденция]'
+          - Копируйте флаги из одной резиденции в другую. Вы должны быть владельцем
+            обоих или администратором, чтобы сделать это.
         shop:
-          Description: Manage residence shop
+          Description: Управлять магазином резиденции
           Info:
-          - Manages residence shop feature
+          - Управляйте магазином резиденции
           SubCommands:
             list:
-              Description: Shows list of res shops
+              Description: Показывает список магазинов
               Info:
               - '&eПишите: &6/res shop list'
-              - Shows full list of all residences with shop flag
+              - Показывает полный список всех резиденций с флагом магазина
             vote:
-              Description: Vote for residence shop
+              Description: Проголосуй за магазин резиденции
               Info:
-              - '&eПишите: &6/res shop vote <residence> [amount]'
-              - Votes for current or defined residence
+              - '&eПишите: &6/res shop vote <резиденция> [количество]'
+              - Голоса за текущую или определенную резиденцию
             like:
-              Description: Give like for residence shop
+              Description: Дать лайк для магазина резиденции
               Info:
-              - '&eПишите: &6/res shop like <residence>'
+              - '&eПишите: &6/res shop like <резиденция>'
               - Gives like for residence shop
             votes:
-              Description: Shows res shop votes
+              Description: Показывает голоса магазина
               Info:
-              - '&eПишите: &6/res shop votes <residence> <page>'
-              - Shows full vote list of current or defined residence shop
+              - '&eПишите: &6/res shop votes <резиденция> <страница>'
+              - Показывает полный список голосов магазина текущей или определенной резиденции
             likes:
               Description: Shows res shop likes
               Info:
