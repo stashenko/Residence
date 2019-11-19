@@ -887,19 +887,19 @@ CommandHelp:
               - '&eПишите: &6/res shop like <резиденция>'
               - Gives like for residence shop
             votes:
-              Description: Показывает голоса магазина
+              Description: Показать голоса магазина
               Info:
               - '&eПишите: &6/res shop votes <резиденция> <страница>'
               - Показывает полный список голосов магазина текущей или определенной резиденции
             likes:
-              Description: Shows res shop likes
+              Description: Показать лайки магазина
               Info:
-              - '&eПишите: &6/res shop likes <residence> <page>'
-              - Shows full like list of current or defined residence shop
+              - '&eПишите: &6/res shop likes <резиденция> <страница>'
+              - Показывает полный список лайков магазина текущей или определенной резиденции
             setdesc:
-              Description: Sets residence shop description
+              Description: Устанавливает описание магазина резиденции
               Info:
-              - '&eПишите: &6/res shop setdesc [text]'
+              - '&eПишите: &6/res shop setdesc [текст]'
               - Sets residence shop description. Color code supported. For new line
                 use /n
             createboard:
