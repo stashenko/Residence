@@ -530,188 +530,188 @@ CommandHelp:
               Info:
               - '&eПишите: &6/res select size'
             auto:
-              Description: Turns on auto selection tool
+              Description: Включает инструмент автоматического выбора
               Info:
               - '&eПишите: &6/res select auto [playername]'
             cost:
-              Description: Display selection cost
+              Description: Показать стоимость выбора
               Info:
               - '&eПишите: &6/res select cost'
             vert:
-              Description: Expand Selection Vertically
+              Description: Расширить выделение по вертикали
               Info:
               - '&eПишите: &6/res select vert'
-              - Will expand selection as high and as low as allowed.
+              - Расширит выбор настолько высоко, насколько возможно.
             sky:
-              Description: Expand Selection to Sky
+              Description: Расширить выделение до неба
               Info:
               - '&eПишите: &6/res select sky'
-              - Expands as high as your allowed to go.
+              - Расширяется настолько высоко, насколько вам позволено.
             bedrock:
-              Description: Expand Selection to Bedrock
+              Description: Расширить выбор до бедрока
               Info:
               - '&eПишите: &6/res select bedrock'
-              - Expands as low as your allowed to go.
+              - Расширяется настолько низко, насколько вам позволено.
             expand:
-              Description: Expand selection in a direction.
+              Description: Расширить выделение по направлению.
               Info:
-              - '&eПишите: &6/res select expand <amount>'
-              - Expands <amount> in the direction your looking.
+              - '&eПишите: &6/res select expand <количество>'
+              - Увеличивает <количество> в направлении вашего взгляда.
             shift:
-              Description: Shift selection in a direction
+              Description: Сдвиг выбора в направлении
               Info:
-              - '&eПишите: &6/res select shift <amount>'
-              - Pushes your selection by <amount> in the direction your looking.
+              - '&eПишите: &6/res select shift <количество>'
+              - Выдвигает ваш выбор на <количество> в направлении вашего взгляда.
             chunk:
-              Description: Select the chunk your currently in.
+              Description: Выберите чанк, в котором вы сейчас находитесь.
               Info:
               - '&eПишите: &6/res select chunk'
-              - Selects the chunk your currently standing in.
+              - Выбирает чанк, в котором вы сейчас находитесь.
             residence:
-              Description: Select a existing area in a residence.
+              Description: Выберите существующий район в резиденции.
               Info:
-              - '&eПишите: &6/res select residence <residence>'
-              - Selects a existing area in a residence.
+              - '&eПишите: &6/res select residence <резиденция>'
+              - Выбирает существующую площадь в резиденции.
             worldedit:
-              Description: Set selection using the current WorldEdit selection.
+              Description: Установите выбор, используя текущий выбор WorldEdit.
               Info:
               - '&eПишите: &6/res select worldedit'
-              - Sets selection area using the current WorldEdit selection.
+              - Установите выбор, используя текущий выбор WorldEdit.
         padd:
-          Description: Add player to residence.
+          Description: Добавить игрока в резиденцию.
           Info:
-          - '&eПишите: &6/res padd <residence> [player]'
-          - Adds essential flags for player
+          - '&eПишите: &6/res padd <резиденция> [игрок]'
+          - Добавляет необходимые флаги для игрока
         signconvert:
-          Description: Converts signs from ResidenceSign plugin
+          Description: Преобразует таблички из плагина ResidenceSign
           Info:
           - '&eПишите: &6/res signconvert'
-          - Will try to convert saved sign data from 3rd party plugin
+          - Постараюсь преобразовать сохраненные данные таблички из стороннего плагина
         listallhidden:
-          Description: List All Hidden Residences
+          Description: Список всех скрытых резиденций
           Info:
-          - '&eПишите: &6/res listhidden <page>'
-          - Lists all hidden residences on the server.
+          - '&eПишите: &6/res listhidden <страница>'
+          - Список всех скрытых резиденций на сервере.
         bank:
-          Description: Manage money in a Residence
+          Description: Управлять деньгами в резиденции
           Info:
-          - '&eПишите: &6/res bank [deposit/withdraw] <residence> [amount]'
-          - You must be standing in a Residence or provide residence name
-          - You must have the +bank flag.
+          - '&eПишите: &6/res bank [deposit/withdraw] <резиденция> [количество]'
+          - Вы должны стоять в резиденции или указать название резиденции
+          - У вас должен быть флаг + bank.
         create:
-          Description: Create Residences
+          Description: Создать Резиденцию
           Info:
-          - '&eПишите: &6/res create <residence name>'
+          - '&eПишите: &6/res create <название>'
         listall:
-          Description: List All Residences
+          Description: Список всех резиденций
           Info:
-          - '&eПишите: &6/res listall <page> <worldName> <-a/-f>'
-          - Lists all residences
+          - '&eПишите: &6/res listall <страница> <мир> <-a/-f>'
+          - Списки всех резиденций
         info:
-          Description: Show info on a residence.
+          Description: Показать информацию о резиденции.
           Info:
-          - '&eПишите: &6/res info <residence>'
-          - Leave off <residence> to display info for the residence your currently
-            in.
+          - '&eПишите: &6/res info <резиденция>'
+          - Оставьте <резиденция>, чтобы отобразить информацию о резиденции, в которой вы
+            сейчас находитесь.
         area:
-          Description: Manage physical areas for a residence.
+          Description: Управление физическими зонами для резиденции.
           SubCommands:
             list:
-              Description: List physical areas in a residence
+              Description: Список физических зон в резиденции
               Info:
-              - '&eПишите: &6/res area list [residence] <page>'
+              - '&eПишите: &6/res area list [резиденция] <страница>'
             listall:
-              Description: List coordinates and other Info for areas
+              Description: Список координат и другая информация для областей
               Info:
-              - '&eПишите: &6/res area listall [residence] <page>'
+              - '&eПишите: &6/res area listall [резиденция] <страница>'
             add:
-              Description: Add physical areas to a residence
+              Description: Добавьте физические области к резиденции
               Info:
-              - '&eПишите: &6/res area add [residence] [areaID]'
-              - You must first select two points first.
+              - '&eПишите: &6/res area add [резиденция] [ID области]'
+              - Сначала вы должны выбрать две точки.
             remove:
-              Description: Remove physical areas from a residence
+              Description: Удалить физические зоны из резиденции
               Info:
-              - '&eПишите: &6/res area remove [residence] [areaID]'
+              - '&eПишите: &6/res area remove [резиденция] [ID области]'
             replace:
-              Description: Replace physical areas in a residence
+              Description: Заменить физические зоны в резиденции
               Info:
-              - '&eПишите: &6/res area replace [residence] [areaID]'
-              - You must first select two points first.
-              - Replacing a area will charge the difference in size if the new area
-                is bigger.
+              - '&eПишите: &6/res area replace [резиденция] [ID области]'
+              - Сначала вы должны выбрать две точки.
+              - Замена области будет взимать разницу в размере, если новая
+                область больше.
         give:
-          Description: Give residence to player.
+          Description: Дайте резиденцию игроку.
           Info:
-          - '&eПишите: &6/res give <residence name> [player] <-s>'
-          - Gives your owned residence to target player
+          - '&eПишите: &6/res give <название резиденции> [игрок] <-s>'
+          - Предоставляет вашу резиденцию целевому игроку
         renamearea:
-          Description: Rename area name for residence
+          Description: Переименовать название области для резиденции
           Info:
-          - '&eПишите: &6/res removeworld [residence] [oldAreaName] [newAreaName]'
+          - '&eПишите: &6/res removeworld [резиденция] [oldAreaName] [newAreaName]'
         contract:
-          Description: Contracts residence in direction you looking
+          Description: Контракты резиденции в направлении, котором вы ищете
           Info:
-          - '&eПишите: &6/res contract (residence) [amount]'
+          - '&eПишите: &6/res contract (резиденция) [количество]'
           - Contracts residence in direction you looking.
           - Residence name is optional
         check:
           Description: Check flag state for you
           Info:
-          - '&eПишите: &6/res check [residence] [flag] (playername)'
+          - '&eПишите: &6/res check [резиденция] [флаг] (игрок)'
         gset:
-          Description: Set flags on a specific group for a Residence.
+          Description: Установите флаги для определенной группы резиденции
           Info:
-          - '&eПишите: &6/res gset <residence> [group] [flag] [true/false/remove]'
-          - To see a list of flags, use /res flags ?
+          - '&eПишите: &6/res gset <резиденция> [группа] [флаг] [true/false/remove]'
+          - Чтобы увидеть список флагов, используйте /res flags ?
         list:
-          Description: List Residences
+          Description: Список резиденций
           Info:
-          - '&eПишите: &6/res list <player> <page> <worldName>'
-          - Lists all the residences a player owns (except hidden ones).
-          - If listing your own residences, shows hidden ones as well.
-          - To list everyones residences, use /res listall.
+          - '&eПишите: &6/res list <игрок> <страница> <мир>'
+          - Перечисляет все резиденции, которыми владеет игрок (кроме скрытых).
+          - Если это список ваших собственных резиденций, то показывает также скрытые.
+          - Чтобы перечислить все резиденции, используйте /res listall.
         version:
-          Description: how residence version
+          Description: Узнать версию плагина
           Info:
           - '&eПишите: &6/res version'
         tool:
-          Description: Shows residence selection and info tool names
+          Description: Показывает выбор резиденции и названия информационных инструментов
           Info:
           - '&eПишите: &6/res tool'
         pdel:
-          Description: Remove player from residence.
+          Description: Удалить игрока из резиденции.
           Info:
-          - '&eПишите: &6/res pdel <residence> [player]'
-          - Removes essential flags from player
+          - '&eПишите: &6/res pdel <резиденция> [игрок]'
+          - Убирает необходимые флаги с игрока
         market:
-          Description: Buy, Sell, or Rent Residences
+          Description: Купить, продать или арендовать резиденцию
           Info:
-          - '&eПишите: &6/res market ? for more Info'
+          - '&eПишите: &6/res market ? для большей информации'
           SubCommands:
             Info:
-              Description: Get economy Info on residence
+              Description: Получить информацию о экономике резиденции.
               Info:
-              - '&eПишите: &6/res market Info [residence]'
-              - Shows if the Residence is for sale or for rent, and the cost.
+              - '&eПишите: &6/res market Info [резиденция]'
+              - Показывает, если Резиденция продается или сдается, и стоимость.
             list:
-              Description: Lists rentable and for sale residences.
+              Description: Списки арендуемых и резиденций на продажу.
               Info:
               - '&eПишите: &6/res market list [rent/sell]'
               SubCommands:
                 rent:
-                  Description: Lists rentable residences.
+                  Description: Списки арендуемых резиденций.
                   Info:
                   - '&eПишите: &6/res market list rent'
                 sell:
-                  Description: Lists for sale residences.
+                  Description: Списки резиденций для продажи.
                   Info:
                   - '&eПишите: &6/res market list sell'
             sell:
-              Description: Sell a residence
+              Description: Продать резиденцию
               Info:
-              - '&eПишите: &6/res market sell [residence] [amount]'
-              - Puts a residence for sale for [amount] of money.
+              - '&eПишите: &6/res market sell [резиденция] [количество]'
+              - Puts a residence for sale for [количество] of money.
               - Another player can buy the residence with /res market buy
             sign:
               Description: Set market sign
