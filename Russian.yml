@@ -900,21 +900,21 @@ CommandHelp:
               Description: Устанавливает описание магазина резиденции
               Info:
               - '&eПишите: &6/res shop setdesc [текст]'
-              - Sets residence shop description. Color code supported. For new line
-                use /n
+              - Устанавливает описание магазина резиденции. Цветовой код поддерживается. Для
+                новой строки используйте /n
             createboard:
-              Description: Create res shop board
+              Description: Создать вывеску магазина
               Info:
               - '&eПишите: &6/res shop createboard [place]'
-              - Creates res shop board from selected area. Place - position from which
-                to start filling board
+              - Создает вывеску магазина из выбранной области. place - позиция, с которой
+                начинается заполнение вывески
             deleteboard:
-              Description: Deletes res shop board
+              Description: Удалить вывеску магазина
               Info:
               - '&eПишите: &6/res shop deleteboard'
-              - Deletes res shop board bi right clicking on one of signs
+              - Удаляет вывеску магазина правым кликом по табличке
         lset:
-          Description: Change blacklist and ignorelist options
+          Description: Изменить параметры черного списка и списка игнорируемых
           Info:
           - '&eПишите: &6/res lset <резиденция> [blacklist/ignorelist] [material]'
           - '&eПишите: &6/res lset <резиденция> Info'
@@ -923,194 +923,193 @@ CommandHelp:
         pset:
           Description: Set flags on a specific player for a Residence.
           Info:
-          - '&eПишите: &6/res pset <резиденция> [player] [flag] [true/false/remove]'
-          - '&eПишите: &6/res pset <резиденция> [player] removeall'
-          - To see a list of flags, use /res flags ?
+          - '&eПишите: &6/res pset <резиденция> [игрок] [флаг] [true/false/remove]'
+          - '&eПишите: &6/res pset <резиденция> [игрок] removeall'
+          - Чтобы увидеть список флагов, используйте /res flags ?
         show:
-          Description: Show residence boundaries
+          Description: Показать границы резиденции
           Info:
           - '&eПишите: &6/res show <резиденция>'
         flags:
-          Description: List of flags
+          Description: Список флагов
           Info:
-          - For flag values, usually true allows the action, and false denys the action.
+          - Для значений флага true разрешает действие, а false запрещает действие.
           SubCommands:
             anvil:
               Translated: anvil
-              Description: Allows or denys interaction with anvil
+              Description: Разрешает или запрещает взаимодействие с наковальней
               Info:
               - '&eПишите: &6/res set/pset <резиденция> anvil true/false/remove'
             admin:
               Translated: admin
-              Description: Gives a player permission to change flags on a residence
+              Description: Дает игроку разрешение на смену флагов по месту жительства
               Info:
               - '&eПишите: &6/res pset <резиденция> admin true/false/remove'
             animalkilling:
               Translated: animalkilling
-              Description: Allows or denys animal killing
+              Description: Разрешает или запрещает убийство животных
               Info:
               - '&eПишите: &6/res set/pset <резиденция> animalkilling true/false/remove'
             animals:
               Translated: animals
-              Description: Allows or denys animal spawns
+              Description: Разрешает или запрещает порождение животных
               Info:
               - '&eПишите: &6/res set <резиденция> animals true/false/remove'
             anvilbreak:
               Translated: anvilbreak
-              Description: Allows or denys anvil break in residence
+              Description: Разрешает или запрещает наковальню в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> anvilbreak true/false/remove'
             backup:
               Translated: backup
-              Description: If set to true, restores previous look of area (WordEdit
-                required)
+              Description: Если установлено значение true, восстанавливает
+                предыдущий вид области (требуется WordEdit)
               Info:
               - '&eПишите: &6/res set <резиденция> backup true/false/remove'
             bank:
               Translated: bank
-              Description: Allows or denys deposit/withdraw money from res bank
+              Description: Разрешает или запрещает вводить / выводить деньги из банка
               Info:
               - '&eПишите: &6/res set/pset <резиденция> bank true/false/remove'
             bed:
               Translated: bed
-              Description: Allows or denys players to use beds
+              Description: Разрешает или запрещает игрокам использовать кровати
               Info:
               - '&eПишите: &6/res set/pset <резиденция> bed true/false/remove'
             beacon:
               Translated: beacon
-              Description: Allows or denys interaction with beacon
+              Description: Разрешает или запрещает взаимодействие с маяком
               Info:
               - '&eПишите: &6/res set/pset <резиденция> beacon true/false/remove'
             brew:
               Translated: brew
-              Description: Allows or denys players to use brewing stands
+              Description: Позволяет или запрещает игрокам использовать варочные стойки
               Info:
               - '&eПишите: &6/res set/pset <резиденция> brew true/false/remove'
             build:
               Translated: build
-              Description: Allows or denys building
+              Description: Разрешает или запрещает строительство
               Info:
               - '&eПишите: &6/res set/pset <резиденция> build true/false/remove'
             burn:
               Translated: burn
-              Description: Allows or denys Mob combustion in residences
+              Description: Разрешает или запрещает сжигание мобов в резиденциях
               Info:
               - '&eПишите: &6/res set <резиденция> burn true/false/remove'
             button:
               Translated: button
-              Description: Allows or denys players to use buttons
+              Description: Позволяет или запрещает игрокам использовать кнопки
               Info:
               - '&eПишите: &6/res set/pset <резиденция> button true/false/remove'
             cake:
               Translated: cake
-              Description: Allows or denys players to eat cake
+              Description: Позволяет или запрещает игрокам есть торт
               Info:
               - '&eПишите: &6/res set/pset <резиденция> cake true/false/remove'
             canimals:
               Translated: canimals
-              Description: Allows or denys custom animal spawns
+              Description: Разрешает или запрещает нестандартное появление животных
               Info:
               - '&eПишите: &6/res set <резиденция> canimals true/false/remove'
             chorustp:
               Translated: chorustp
-              Description: Allow or disallow teleporting to the residence with chorus
-                fruit
+              Description: Разрешить или запретить телепортировку в резиденцию с фруктами хора
               Info:
               - '&eПишите: &6/res set/pset <резиденция> chorustp true/false/remove'
             chat:
               Translated: chat
-              Description: Allows to join residence chat room
+              Description: Позволяет присоединиться к чату резиденции
               Info:
               - '&eПишите: &6/res set/pset <резиденция> chat true/false/remove'
             cmonsters:
               Translated: cmonsters
-              Description: Allows or denys custom monster spawns
+              Description: Разрешает или запрещает создание монстров
               Info:
               - '&eПишите: &6/res set <резиденция> cmonsters true/false/remove'
             commandblock:
               Translated: commandblock
-              Description: Allows or denys command block interaction
+              Description: Разрешает или запрещает взаимодействие с команднными блоками
               Info:
               - '&eПишите: &6/res set/pset <резиденция> commandblock true/false/remove'
             command:
               Translated: command
-              Description: Allows or denys comamnd use in residences
+              Description: Разрешает или запрещает использование команды в резиденциях
               Info:
               - '&eПишите: &6/res set/pset <резиденция> command true/false/remove'
             container:
               Translated: container
-              Description: Allows or denys use of furnaces, chests, dispensers, etc...
+              Description: Разрешает или запрещает использование печей, сундуков и т.д...
               Info:
               - '&eПишите: &6/res set/pset <резиденция> container true/false/remove'
             coords:
               Translated: coords
-              Description: Hides residence coordinates
+              Description: Скрывает координаты резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> coords true/false/remove'
             craft:
               Translated: craft
-              Description: Gives table, enchant, brew flags
+              Description: Разрешает table, enchant, brew флаги
               Info:
               - '&eПишите: &6/res set <резиденция> craft true/false/remove'
             creeper:
               Translated: creeper
-              Description: Allow or deny creeper explosions
+              Description: Разрешить или запретить взрывы крипера
               Info:
               - '&eПишите: &6/res set <резиденция> creeper true/false/remove'
             dragongrief:
               Translated: dragongrief
-              Description: Prevents ender dragon block griefing
+              Description: Запрещает Дракону ломать блоки
               Info:
               - '&eПишите: &6/res set <резиденция> dragongrief true/false/remove'
             day:
               Translated: day
-              Description: Sets day time in residence
+              Description: Устанавливает дневное время в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> day true/false/remove'
             dye:
               Translated: dye
-              Description: Allows or denys sheep dyeing
+              Description: Разрешает или запрещает покраску овец
               Info:
               - '&eПишите: &6/res set/pset <резиденция> dye true/false/remove'
             damage:
               Translated: damage
-              Description: Allows or denys all entity damage within the residence
+              Description: Разрешает или запрещает урон сущности в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> damage true/false/remove'
             decay:
               Translated: decay
-              Description: Allows or denys leave decay in the residence
+              Description: Разрешает или запрещает опадание листвы в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> decay true/false/remove'
             destroy:
               Translated: destroy
-              Description: Allows or denys only destruction of blocks, overrides the
-                build flag
+              Description: Разрешает или запрещает только уничтожение блоков,
+                отменяет флаг build
               Info:
               - '&eПишите: &6/res set/pset <резиденция> destroy true/false/remove'
             dryup:
               Translated: dryup
-              Description: Prevents land from drying up
+              Description: Предотвращает землю от высыхания
               Info:
               - '&eПишите: &6/res set <резиденция> dryup true/false/remove'
             diode:
               Translated: diode
-              Description: Allows or denys players to use redstone repeaters
+              Description: Позволяет или запрещает игрокам использовать повторители редстоуна
               Info:
               - '&eПишите: &6/res set/pset <резиденция> diode true/false/remove'
             door:
               Translated: door
-              Description: Allows or denys players to use doors and trapdoors
+              Description: Позволяет или запрещает игрокам использовать двери и люки
               Info:
               - '&eПишите: &6/res set/pset <резиденция> door true/false/remove'
             egg:
               Translated: egg
-              Description: Allows or denys interaction with dragon egg
+              Description: Разрешает или запрещает взаимодействие с яйцом дракона
               Info:
               - '&eПишите: &6/res set/pset <резиденция> egg true/false/remove'
             enchant:
               Translated: enchant
-              Description: Allows or denys players to use enchanting tables
+              Description: Позволяет или запрещает игрокам использовать стол зачарования
               Info:
               - '&eПишите: &6/res set/pset <резиденция> enchant true/false/remove'
             explode:
