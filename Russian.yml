@@ -1114,87 +1114,87 @@ CommandHelp:
               - '&eПишите: &6/res set/pset <резиденция> enchant true/false/remove'
             explode:
               Translated: explode
-              Description: Allows or denys explosions in residences
+              Description: Разрешает или запрещает взрывы в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> explode true/false/remove'
             enderpearl:
               Translated: enderpearl
-              Description: Allow or disallow teleporting to the residence with enderpearl
+              Description: Разрешить или запретить телепортировку в резиденцию с помощью Жемчуга Края
               Info:
               - '&eПишите: &6/res set/pset <резиденция> enderpearl true/false/remove'
             fallinprotection:
               Translated: fallinprotection
-              Description: Protects from blocks falling into residence
+              Description: Защищает от падания блоков в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> fallinprotection true/false/remove'
             falldamage:
               Translated: falldamage
-              Description: Protects players from fall damage
+              Description: Защищает игроков от повреждений при падении
               Info:
               - '&eПишите: &6/res set <резиденция> falldamage true/false/remove'
             feed:
               Translated: feed
-              Description: Setting to true makes the residence feed its occupants
+              Description: Установка на true заставляет резиденцию кормить своих жителей
               Info:
               - '&eПишите: &6/res set <резиденция> feed true/false/remove'
             friendlyfire:
               Translated: friendlyfire
-              Description: Allow or disallow friendly fire
+              Description: Разрешить или запретить дружеский огонь
               Info:
               - '&eПишите: &6/res pset <резиденция> friendlyfire true/false/remove'
             fireball:
               Translated: fireball
-              Description: Allows or denys fire balls in residences
+              Description: Позволяет или запрещает огненные шары в резиденциях
               Info:
               - '&eПишите: &6/res set <резиденция> fireball true/false/remove'
             firespread:
               Translated: firespread
-              Description: Allows or denys fire spread
+              Description: Разрешает или запрещает распространение огня
               Info:
               - '&eПишите: &6/res set <резиденция> firespread true/false/remove'
             flowinprotection:
               Translated: flowinprotection
-              Description: Allows or denys liquid flow into residence
+              Description: Позволяет или запрещает потоки жидкостей в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> flowinprotection true/false/remove'
             flow:
               Translated: flow
-              Description: Allows or denys liquid flow
+              Description: Позволяет или запрещает поток жидкости
               Info:
               - '&eПишите: &6/res set <резиденция> flow true/false/remove'
             flowerpot:
               Translated: flowerpot
-              Description: Allows or denys interaction with flower pot
+              Description: Разрешает или запрещает взаимодействие с цветочным горшком
               Info:
               - '&eПишите: &6/res set/pset <резиденция> flowerpot true/false/remove'
             grow:
               Translated: grow
-              Description: Allows or denys plant growing
+              Description: Разрешает или запрещает выращивание растений
               Info:
               - '&eПишите: &6/res set <резиденция> grow true/false/remove'
             glow:
               Translated: glow
-              Description: Players will start glowing when entering residence
+              Description: Игроки начнут светиться при входе в резиденцию
               Info:
               - '&eПишите: &6/res set <резиденция> glow true/false/remove'
             hotfloor:
               Translated: hotfloor
-              Description: Prevent damage from magma blocks
+              Description: Предотвратить повреждение от блоков магмы
               Info:
               - '&eПишите: &6/res set <резиденция> hotfloor true/false/remove'
             hidden:
               Translated: hidden
-              Description: Hides residence from list or listall commands
+              Description: Скрывает резиденцию от команды list или listall
               Info:
               - '&eПишите: &6/res set <резиденция> hidden true/false/remove'
             hook:
               Translated: hook
-              Description: Allows or denys fishing rod hooking entities
+              Description: Разрешает или запрещает зацепку удочкой
               Info:
               - '&eПишите: &6/res set/pset <резиденция> hook true/false/remove'
             healing:
               Translated: healing
-              Description: Setting to true makes the residence heal its occupants
+              Description: Установка на true заставляет резиденцию лечить своих жителей
               Info:
               - '&eПишите: &6/res set <резиденция> healing true/false/remove'
             iceform:
