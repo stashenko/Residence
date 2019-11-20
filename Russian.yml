@@ -1199,82 +1199,82 @@ CommandHelp:
               - '&eПишите: &6/res set <резиденция> healing true/false/remove'
             iceform:
               Translated: iceform
-              Description: Prevents from ice forming
+              Description: Предотвращает образование льда
               Info:
               - '&eПишите: &6/res set <резиденция> iceform true/false/remove'
             icemelt:
               Translated: icemelt
-              Description: Prevents ice from melting
+              Description: Предотвращает таяние льда
               Info:
               - '&eПишите: &6/res set <резиденция> icemelt true/false/remove'
             ignite:
               Translated: ignite
-              Description: Allows or denys fire ignition
+              Description: Разрешает или запрещает возгорание
               Info:
               - '&eПишите: &6/res set/pset <резиденция> ignite true/false/remove'
             itemdrop:
               Translated: itemdrop
-              Description: Allows or denys item drop
+              Description: Разрешает или запрещает выбрасывание предметов
               Info:
               - '&eПишите: &6/res set/pset <резиденция> itemdrop true/false/remove'
             itempickup:
               Translated: itempickup
-              Description: Allows or denys item pickup
+              Description: Разрешает или запрещает поднятие предметов
               Info:
               - '&eПишите: &6/res set/pset <резиденция> itempickup true/false/remove'
             jump2:
               Translated: jump2
-              Description: Allows to jump 2 blocks high
+              Description: Позволяет прыгать на два блока ввысоту
               Info:
               - '&eПишите: &6/res set <резиденция> jump2 true/false/remove'
             jump3:
               Translated: jump3
-              Description: Allows to jump 3 blocks high
+              Description: Позволяет прыгать на три блока ввысоту
               Info:
               - '&eПишите: &6/res set <резиденция> jump3 true/false/remove'
             keepinv:
               Translated: keepinv
-              Description: Players keeps inventory after death
+              Description: Игроки хранят инвентарь после смерти
               Info:
               - '&eПишите: &6/res set <резиденция> keepinv true/false/remove'
             keepexp:
               Translated: keepexp
-              Description: Players keeps exp after death
+              Description: Игроки сохраняют опыт после смерти
               Info:
               - '&eПишите: &6/res set <резиденция> keepexp true/false/remove'
             lavaflow:
               Translated: lavaflow
-              Description: Allows or denys lava flow, overrides flow
+              Description: Позволяет или запрещает поток лавы, перекрывает поток
               Info:
               - '&eПишите: &6/res set <резиденция> lavaflow true/false/remove'
             leash:
               Translated: leash
-              Description: Allows or denys aninal leash
+              Description: Разрешает или запрещает привязи животных
               Info:
               - '&eПишите: &6/res set/pset <резиденция> leash true/false/remove'
             lever:
               Translated: lever
-              Description: Allows or denys players to use levers
+              Description: Позволяет или запрещает игрокам использовать рычаги
               Info:
               - '&eПишите: &6/res set/pset <резиденция> lever true/false/remove'
             mobexpdrop:
               Translated: mobexpdrop
-              Description: Prevents mob droping exp on death
+              Description: Предотвращает мобам сбрасывание опыта после смерти
               Info:
               - '&eПишите: &6/res set <резиденция> mobexpdrop true/false/remove'
             mobitemdrop:
               Translated: mobitemdrop
-              Description: Prevents mob droping items on death
+              Description: Предотвращает мобам сбрасывание предметов после смерти
               Info:
               - '&eПишите: &6/res set <резиденция> mobitemdrop true/false/remove'
             mobkilling:
               Translated: mobkilling
-              Description: Allows or denys mob killing
+              Description: Разрешает или запрещает убийство мобов
               Info:
               - '&eПишите: &6/res set/pset <резиденция> mobkilling true/false/remove'
             monsters:
               Translated: monsters
-              Description: Allows or denys monster spawns
+              Description: Разрешает или запрещает спавн мобов 
               Info:
               - '&eПишите: &6/res set <резиденция> monsters true/false/remove'
             move:
