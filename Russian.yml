@@ -1334,261 +1334,257 @@ CommandHelp:
               - '&eПишите: &6/res set/pset <резиденция> pressure true/false/remove'
             piston:
               Translated: piston
-              Description: Allow or deny pistons from pushing or pulling blocks in
-                the residence
+              Description: Разрешить или запретить поршням толкать или тянуть блоки в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> piston true/false/remove'
             pistonprotection:
               Translated: pistonprotection
-              Description: Enables or disabled piston block move in or out of residence
+              Description: Включает или отключает перемещение поршней в или из резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> pistonprotection true/false/remove'
             place:
               Translated: place
-              Description: Allows or denys only placement of blocks, overrides the
-                build flag
+              Description: Разрешает или запрещает только размещение блоков, отменяет флаг build
               Info:
               - '&eПишите: &6/res set/pset <резиденция> place true/false/remove'
             pvp:
               Translated: pvp
-              Description: Allow or deny pvp in the residence
+              Description: Разрешить или запретить пвп в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> pvp true/false/remove'
             rain:
               Translated: rain
-              Description: Sets weather to rainny in residence
+              Description: Устанавливает дождливую погоду в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> rain true/false/remove'
             redstone:
               Translated: redstone
-              Description: Gives lever, diode, button, pressure, note flags
+              Description: Выдает флаги lever, diode, button, pressure, note
               Info:
               - '&eПишите: &6/res pset <резиденция> redstone true/false/remove'
             respawn:
               Translated: respawn
-              Description: Automaticaly respawns player
+              Description: Автоматически возрождает игрока
               Info:
               - '&eПишите: &6/res set <резиденция> respawn true/false/remove'
             riding:
               Translated: riding
-              Description: Prevent riding a horse
+              Description: Запрет верховой езды
               Info:
               - '&eПишите: &6/res set/pset <резиденция> riding true/false/remove'
             shoot:
               Translated: shoot
-              Description: Allows or denys shooting projectile in area
+              Description: Разрешает или запрещает стрельбу снарядом в области
               Info:
               - '&eПишите: &6/res set <резиденция> shoot true/false/remove'
             sun:
               Translated: sun
-              Description: Sets weather to sunny in residence
+              Description: Устанавливает солнечную погоду в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> sun true/false/remove'
             shop:
               Translated: shop
-              Description: Adds residence to special residence shop list
+              Description: Добавляет резиденцию в специальный список магазинов
               Info:
               - '&eПишите: &6/res set <резиденция> shop true/false/remove'
             snowtrail:
               Translated: snowtrail
-              Description: Prevents snowman snow trails
+              Description: Предотвращает снежные тропы от снеговика
               Info:
               - '&eПишите: &6/res set <резиденция> snowtrail true/false/remove'
             spread:
               Translated: spread
-              Description: Prevents block spreading
+              Description: Предотвращает распространение блоков
               Info:
               - '&eПишите: &6/res set <резиденция> spread true/false/remove'
             snowball:
               Translated: snowball
-              Description: Prevents snowball knockback
+              Description: Препятствует отбрасывание от снежка
               Info:
               - '&eПишите: &6/res set <резиденция> snowball true/false/remove'
             sanimals:
               Translated: sanimals
-              Description: Allows or denys spawner or spawn egg animal spawns
+              Description: Разрешает или запрещает порождать животных из яйца призыва
               Info:
               - '&eПишите: &6/res set <резиденция> sanimals true/false/remove'
             shear:
               Translated: shear
-              Description: Allows or denys sheep shear
+              Description: Разрешает или запрещает стрич овец
               Info:
               - '&eПишите: &6/res set/pset <резиденция> shear true/false/remove'
             smonsters:
               Translated: smonsters
-              Description: Allows or denys spawner or spawn egg monster spawns
+              Description: Разрешает или запрещает порождать животных из спавнера или яйца призыва
               Info:
               - '&eПишите: &6/res set <резиденция> smonsters true/false/remove'
             subzone:
               Translated: subzone
-              Description: Allow a player to make subzones in the residence
+              Description: Разрешить игроку делать подзоны в резиденции
               Info:
               - '&eПишите: &6/res set/pset <резиденция> subzone true/false/remove'
             title:
               Translated: title
-              Description: Shows or hides enter/leave message in residence
+              Description: Показывает или скрывает вход / выход сообщения в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> title true/false/remove'
             table:
               Translated: table
-              Description: Allows or denys players to use workbenches
+              Description: Позволяет или запрещает игрокам использовать верстак
               Info:
               - '&eПишите: &6/res set/pset <резиденция> table true/false/remove'
             tnt:
               Translated: tnt
-              Description: Allow or deny tnt explosions
+              Description: Разрешить или запретить взрывы TNT
               Info:
               - '&eПишите: &6/res set <резиденция> tnt true/false/remove'
             tp:
               Translated: tp
-              Description: Allow or disallow teleporting to the residence
+              Description: Разрешить или запретить телепортацию в резиденцию
               Info:
               - '&eПишите: &6/res set/pset <резиденция> tp true/false/remove'
             trade:
               Translated: trade
-              Description: Allows or denys villager trading in residence
+              Description: Разрешает или запрещает сельским жителям торговать в резиденции
               Info:
               - '&eПишите: &6/res set/pset <резиденция> trade true/false/remove'
             trample:
               Translated: trample
-              Description: Allows or denys crop trampling in residence
+              Description: Разрешает или запрещает вытаптывание урожая в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> trample true/false/remove'
             trusted:
               Translated: trusted
-              Description: Gives build, use, move, container and tp flags
+              Description: Выдает флаги build, use, move, container и tp
               Info:
               - '&eПишите: &6/res pset <резиденция> trusted true/false/remove'
             use:
               Translated: use
-              Description: Allows or denys use of doors, lever, buttons, etc...
+              Description: Разрешает или запрещает использование дверей, рычагов, кнопок и т. д....
               Info:
               - '&eПишите: &6/res set/pset <резиденция> use true/false/remove'
             vehicledestroy:
               Translated: vehicledestroy
-              Description: Allows or denys vehicle destroy
+              Description: Разрешает или запрещает уничтожение вагонеток
               Info:
               - '&eПишите: &6/res set/pset <резиденция> vehicledestroy true/false/remove'
             witherspawn:
               Translated: witherspawn
-              Description: Allows or denys wither spawning
+              Description: Разрешает или запрещает спавн иссушителя
               Info:
               - '&eПишите: &6/res set <резиденция> witherspawn true/false/remove'
             phantomspawn:
               Translated: phantomspawn
-              Description: Allows or denys phantom spawning
+              Description: Разрешает или запрещает спавн фантомов
               Info:
               - '&eПишите: &6/res set <резиденция> phantomspawn true/false/remove'
             witherdamage:
               Translated: witherdamage
-              Description: Allows or denys wither damage
+              Description: Позволяет или запрещает повреждение от иссушителя
               Info:
               - '&eПишите: &6/res set <резиденция> witherdamage true/false/remove'
             witherdestruction:
               Translated: witherdestruction
-              Description: Allows or denys wither block damage
+              Description: Позволяет или запрещает повреждение блоков от иссушителя
               Info:
               - '&eПишите: &6/res set <резиденция> witherdestruction true/false/remove'
             waterflow:
               Translated: waterflow
-              Description: Allows or denys water flow, overrides flow
+              Description: Позволяет или запрещает поток воды, перекрывает поток
               Info:
               - '&eПишите: &6/res set <резиденция> waterflow true/false/remove'
             wspeed1:
               Translated: wspeed1
-              Description: Change players walk speed in residence to %1
+              Description: Изменить скорость ходьбы игроков по месту жительства на %1
               Info:
               - '&eПишите: &6/res set <резиденция> wspeed1 true/false/remove'
             wspeed2:
               Translated: wspeed2
-              Description: Change players walk speed in residence to %1
+              Description: Изменить скорость ходьбы игроков по месту жительства на %1
               Info:
               - '&eПишите: &6/res set <резиденция> wspeed2 true/false/remove'
         remove:
-          Description: Remove residences.
+          Description: Удалить резиденцию.
           Info:
-          - '&eПишите: &6/res remove <residence name>'
+          - '&eПишите: &6/res remove <резиденция>'
         signupdate:
-          Description: Updated residence signs
+          Description: Обновление табличек резиденции
           Info:
           - '&eПишите: &6/res signupdate'
         current:
-          Description: Show residence your currently in.
+          Description: Показывает резиденцию в вашем месте
           Info:
           - '&eПишите: &6/res current'
         reload:
-          Description: reload lanf or config files
+          Description: перезагрузить lang или файлы конфигурации
           Info:
           - '&eПишите: &6/res reload [config/lang/groups/flags]'
         setowner:
-          Description: Change owner of a residence.
+          Description: Сменить владельца резиденции
           Info:
-          - '&eПишите: &6/resadmin setowner [residence] [player]'
+          - '&eПишите: &6/resadmin setowner [резиденция] [игрок]'
         unstuck:
-          Description: Teleports outside of residence
+          Description: Телепорт за пределы резиденции
           Info:
           - '&eПишите: &6/res unstuck'
         subzone:
-          Description: Create subzones in residences.
+          Description: Создайте подзоны в резиденциях.
           Info:
-          - '&eПишите: &6/res subzone <резиденция> [subzone name]'
-          - If residence name is left off, will attempt to use residence your standing
-            in.
+          - '&eПишите: &6/res subzone <резиденция> [подзона]'
+          - Если название резиденции не указано, попытается использовать резиденцию, в котором вы находитесь.
         removeworld:
-          Description: Remove all residences from world
+          Description: Удалить все резиденции из мира
           Info:
-          - '&eПишите: &6/res removeworld [worldname]'
-          - Can only be used from console
+          - '&eПишите: &6/res removeworld [мир]'
+          - Может использоваться только с консоли
         limits:
-          Description: Show your limits.
+          Description: Покажит ваши лимиты
           Info:
-          - '&eПишите: &6/res limits (playerName)'
-          - Shows the limitations you have on creating and managing residences.
+          - '&eПишите: &6/res limits (игрок)'
+          - Показывает ограничения, которые вы имеете при создании и управлении резиденциями.
         set:
-          Description: Set general flags on a Residence
+          Description: Установить общие флаги на резиденции
           Info:
-          - '&eПишите: &6/res set <резиденция> [flag] [true/false/remove]'
-          - To see a list of flags, use /res flags ?
-          - These flags apply to any players who do not have the flag applied specifically
-            to them. (see /res pset ?)
+          - '&eПишите: &6/res set <резиденция> [флаг] [true/false/remove]'
+          - Чтобы увидеть список флагов, используйте /res flags ?
+          - Эти флаги применяются ко всем игрокам, у которых нет флага, специально примененного к ним. (смотрите /res pset ?)
         clearflags:
-          Description: Remove all flags from residence
+          Description: Убрать все флаги с резиденций
           Info:
           - '&eПишите: &6/res clearflags <резиденция>'
         message:
-          Description: Manage residence enter / leave messages
+          Description: Управление сообщения входа/выхода из резиденции
           Info:
-          - '&eПишите: &6/res message <резиденция> [enter/leave] [message]'
-          - Set the enter or leave message of a residence.
+          - '&eПишите: &6/res message <резиденция> [enter/leave] [сообщение]'
+          - Установить сообщение входа/выхода из резиденции.
           - '&eПишите: &6/res message <резиденция> remove [enter/leave]'
-          - Removes a enter or leave message.
+          - Удалить сообщение входа/выхода.
         command:
-          Description: Manages allowed or blocked commands in residence
+          Description: Управляет разрешенными или заблокированными командами в резиденции
           Info:
-          - '&eПишите: &6/res command <резиденция> <allow/block/list> <command>'
-          - Shows list, adds or removes allowed or disabled commands in residence
-          - Use _ to include command with multiple variables
+          - '&eПишите: &6/res command <резиденция> <allow/block/list> <команда>'
+          - Показывает список, добавляет или удаляет разрешенные или отключенные команды в резиденции
+          - Используйте _ для включения команды с несколькими переменными
         confirm:
-          Description: Confirms removal of a residence.
+          Description: Подтверждение удаления резиденции
           Info:
           - '&eПишите: &6/res confirm'
-          - Confirms removal of a residence.
+          - Подтверждает удаление резиденции
         resadmin:
-          Description: Enabled or disable residence admin
+          Description: Включен или отключен администратор резиденции
           Info:
           - '&eПишите: &6/res resadmin [on/off]'
         tpset:
-          Description: Set the teleport location of a Residence
+          Description: Установите местоположение телепортации Резиденции
           Info:
           - '&eПишите: &6/res tpset'
-          - This will set the teleport location for a residence to where your standing.
-          - You must be standing in the residence to use this command.
-          - You must also be the owner or have the +admin flag for the residence.
+          - Это установит местоположение телепорта для Резиденции, где вы стоите.
+          - Вы должны стоять в резиденции, чтобы использовать эту команду.
+          - Вы также должны быть владельцем или иметь +admin флаг для Резиденции
         tpconfirm:
-          Description: Ignore unsafe teleportation warning
+          Description: Игнорировать опасное предупреждение телепортации
           Info:
           - '&eПишите: &6/res tpconfirm'
-          - Teleports you to a residence, when teleportation is unsafe.
+          - Телепортирует вас к месту жительства, когда телепортация небезопасна.
         removeall:
           Description: Remove all residences owned by a player.
           Info:
