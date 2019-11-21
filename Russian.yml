@@ -1586,86 +1586,85 @@ CommandHelp:
           - '&eПишите: &6/res tpconfirm'
           - Телепортирует вас к месту жительства, когда телепортация небезопасна.
         removeall:
-          Description: Remove all residences owned by a player.
+          Description: Удалить все Резиденции, принадлежащие игроку.
           Info:
-          - '&eПишите: &6/res removeall [owner]'
-          - Removes all residences owned by a specific player.'
-          - Requires /resadmin if you use it on anyone besides yourself.
+          - '&eПишите: &6/res removeall [игрок]'
+          - Удаляет все резиденции, принадлежащие конкретному игроку.
+          - Требуется /resadmin, если вы используете команду на кого-либо, кроме себя.
         material:
-          Description: Check if material exists by its id
+          Description: Проверьте, существует ли материал по его идентификатору
           Info:
-          - '&eПишите: &6/res material [material]'
+          - '&eПишите: &6/res material [материал]'
         kick:
-          Description: Kicks player from residence.
+          Description: Кикает игрока из резиденции.
           Info:
-          - '&eПишите: &6/res kick <player>'
-          - You must be the owner or an admin to do this.
-          - Player should be online.
+          - '&eПишите: &6/res kick <игрок>'
+          - Вы должны быть владельцем или администратором, чтобы сделать это.
+          - Игрок должен быть онлайн.
         sublist:
-          Description: List Residence Subzones
+          Description: Список подзон резиденции
           Info:
-          - '&eПишите: &6/res sublist <резиденция> <page>'
-          - List subzones within a residence.
+          - '&eПишите: &6/res sublist <резиденция> <страница>'
+          - Список подзон внутри резиденции.
         rename:
-          Description: Renames a residence.
+          Description: Переименовывает резиденцию
           Info:
-          - '&eПишите: &6/res rename [OldName] [NewName]'
-          - You must be the owner or an admin to do this.
-          - The name must not already be taken by another residence.
+          - '&eПишите: &6/res rename [Старое имя] [Новое имя]'
+          - Вы должны быть владельцем или администратором, чтобы сделать это.
+          - Имя не должно быть занято.
         setallfor:
-          Description: Set general flags on all residences owned by particular player
+          Description: Установите общие флаги для всех резиденций, принадлежащих конкретному игроку
           Info:
-          - '&eПишите: &6/res setallfor [playerName] [flag] [true/false/remove]'
+          - '&eПишите: &6/res setallfor [игрок] [флаг] [true/false/remove]'
         lease:
-          Description: Manage residence leases
+          Description: Управление условиями аренды
           Info:
-          - '&eПишите: &6/res lease [renew/cost] [residence]'
-          - /res lease cost will show the cost of renewing a residence lease.
-          - /res lease renew will renew the residence provided you have enough money.
+          - '&eПишите: &6/res lease [renew/cost] [резиденция]'
+          - /res lease cost покажет стоимость продления аренды.
+          - /res lease renew продлит аренду, если у вас достаточно денег.
           SubCommands:
             set:
-              Description: Set the lease time
+              Description: Установите время аренды
               Info:
-              - '&eПишите: &6/resadmin lease set [residence] [#days/infinite]'
-              - Sets the lease time to a specified number of days, or infinite.
+              - '&eПишите: &6/resadmin lease set [резиденция] [#days/infinite]'
+              - Устанавливает время аренды на указанное количество дней или бесконечно.
             renew:
-              Description: Renew the lease time
+              Description: Продлить срок аренды
               Info:
               - '&eПишите: &6/resadmin lease renew <резиденция>'
-              - Renews the lease time for current or specified residence.
+              - Продлевает срок аренды для текущей или указанной резиденции
             list:
-              Description: Show lease list of current residence
+              Description: Показать список аренды текущей резиденции
               Info:
-              - '&eПишите: &6/resadmin lease list <резиденция> <page>'
-              - Prints out all subzones lease times
+              - '&eПишите: &6/resadmin lease list <резиденция> <страница>'
+              - Распечатывает все сроки аренды подзон
             expires:
-              Description: Lease end date
+              Description: Дата окончания аренды
               Info:
               - '&eПишите: &6/resadmin lease expires <резиденция>'
-              - Shows when expires residence lease time.
+              - Показывает, когда истекает срок аренды резиденции.
             cost:
-              Description: Shows renew cost
+              Description: Показывает стоимость обновления аренды
               Info:
               - '&eПишите: &6/resadmin lease cost <резиденция>'
-              - Shows how much money you need to renew residence lease.
+              - Показывает, сколько денег нужно, чтобы продлить аренду резиденции.
         tp:
-          Description: Teleport to a residence
+          Description: Телепортация в резиденцию
           Info:
-          - '&eПишите: &6/res tp [residence]'
-          - Teleports you to a residence, you must have +tp flag access or be the
-            owner.
-          - Your permission group must also be allowed to teleport by the server admin.
+          - '&eПишите: &6/res tp [резиденция]'
+          - Телепортирует вас в резиденцию, вы должны иметь доступ к флагу +tp или быть владельцем.
+          - Ваша группа разрешений также должна иметь право телепортироваться администратором сервера.
         setall:
-          Description: Set general flags on all residences
+          Description: Установить общие флаги на всех резиденциях
           Info:
-          - '&eПишите: &6/res setall [flag] [true/false/remove]'
+          - '&eПишите: &6/res setall [флаг] [true/false/remove]'
         resreload:
-          Description: Reload residence.
+          Description: Перезагрузить резиденцию.
           Info:
           - '&eПишите: &6/resreload'
         resload:
-          Description: Load residence save file.
+          Description: Загрузите файл сохранения резиденции.
           Info:
           - '&eПишите: &6/resload'
-          - UNSAFE command, does not save residences first.
-          - Loads the residence save file after you have made changes.
+          - НЕБЕЗОПАСНАЯ команда, перед выполнением не сохраняет резиденции.
+          - Загружает файл сохранения резиденции после внесения изменений.
