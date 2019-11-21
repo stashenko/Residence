@@ -1,7 +1,7 @@
-# of this file and modify that instead. This file will be updated automatically by Residence
-# when a newer version is detected, and your changes will be overwritten.  Once you 
-# have a copy of this file, change the Language: option under the Residence config.yml
-# to whatever you named your copy.
+# Отредактируйте этого файла и сохраните его. Этот файл будет обновляться
+# автоматически при обнаружении более новой версии, и ваши изменения будут
+# перезаписаны. Как только вы имените копию этого файла, измените опцию
+# Language: в Residence config.yml на тто название, которым назвали свою копию.
 
 Language:
   Invalid:
