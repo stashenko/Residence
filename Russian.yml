@@ -1279,22 +1279,22 @@ CommandHelp:
               - '&eПишите: &6/res set <резиденция> monsters true/false/remove'
             move:
               Translated: move
-              Description: Allows or denys movement in the residence
+              Description: Разрешает или запрещает движение в резиденции
               Info:
               - '&eПишите: &6/res set/pset <резиденция> move true/false/remove'
             nanimals:
               Translated: nanimals
-              Description: Allows or denys natural animal spawns
+              Description: Разрешает или запрещает спавн животных
               Info:
               - '&eПишите: &6/res set <резиденция> nanimals true/false/remove'
             nmonsters:
               Translated: nmonsters
-              Description: Allows or denys natural monster spawns
+              Description: Разрешает или запрещает спавн мобов
               Info:
               - '&eПишите: &6/res set <резиденция> nmonsters true/false/remove'
             night:
               Translated: night
-              Description: Sets night time in residence
+              Description: Устанавливает ночное время в резиденции
               Info:
               - '&eПишите: &6/res set <резиденция> night true/false/remove'
             nofly:
@@ -1304,32 +1304,32 @@ CommandHelp:
               - '&eПишите: &6/res set/pset <резиденция> nofly true/false/remove'
             fly:
               Translated: fly
-              Description: Toggles fly for players in residence
+              Description: Переключает полет для игроков в резиденции
               Info:
               - '&eПишите: &6/res set/pset <резиденция> fly true/false/remove'
             nomobs:
               Translated: nomobs
-              Description: Prevents monsters from entering residence
+              Description: Предотвращает проникновение монстров в резиденцию
               Info:
               - '&eПишите: &6/res set <резиденция> nomobs true/false/remove'
             note:
               Translated: note
-              Description: Allows or denys players to use note blocks
+              Description: Позволяет или запрещает игрокам использовать музыкалные блоки
               Info:
               - '&eПишите: &6/res set/pset <резиденция> note true/false/remove'
             nodurability:
               Translated: nodurability
-              Description: Prevents item durability loss
+              Description: Предотвращает потерю прочности предмета
               Info:
               - '&eПишите: &6/res set <резиденция> nodurability true/false/remove'
             overridepvp:
               Translated: overridepvp
-              Description: Overrides any plugin pvp protection
+              Description: Отменяет любую защиту плагинов пвп
               Info:
               - '&eПишите: &6/res set <резиденция> overridepvp true/false/remove'
             pressure:
               Translated: pressure
-              Description: Allows or denys players to use pressure plates
+              Description: Позволяет или запрещает игрокам использовать нажимные пластины
               Info:
               - '&eПишите: &6/res set/pset <резиденция> pressure true/false/remove'
             piston:
